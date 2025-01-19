@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #E1D4C1;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    align-items: center;
+}
+
+.container h2 {
+    margin: 20px 0px;
+    font-size: 24px;
+    font-weight: 700;
+    color: #333;
+    text-align: center;
+}
+
+.container form {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+
+form input, form select, form button {
+    padding: 10px;
+    font-size: 1rem;
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+
+
+table th, table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  button {
+    cursor: pointer;
+  }

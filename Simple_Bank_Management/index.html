@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bank Management System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <h2>Bank Management System</h2>
+        <form id="bankForm">
+            <input type="text" id="name" placeholder="Name" required>
+            <input type="number" id="balance" placeholder="Balance" required>
+            <select id="accountType">
+                <option value="Savings">Savings</option>
+                <option value="Current">Current</option>
+            </select>
+            <button type="submit">Create Account</button>
+        </form>
+
+        <h2>Accounts</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Balance</th>
+                    <th>Account Type</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody id="accountsList">
+                <!-- Dynamically Will Be Added Here! -->
+            </tbody>
+        </table>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
